@@ -187,5 +187,10 @@ footer
                     height: auto;
                     flex-direction: column;
           }
+
+          .main-image {
+                    width: 90%;
+                    margin: auto;
+          }  
           
 }
