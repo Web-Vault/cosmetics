@@ -1,0 +1,103 @@
+index : 
+	navbar : Home page - Shop now - About {Brand} - Buaty Hacks - User -  Logout
+
+	banner 
+	
+
+shop :
+		these are sections which will contain information about the product category 
+		when click on the section or item -> re-direct to the perticular page !
+
+	skincare : banner - Featured Product * 4
+
+	makeup : Featured Product * 4 - banner 
+
+	Haircare : banner - Featured Product * 4
+
+	Fragrance : Featured Product * 4 - banner 
+ 
+	Men's Grooming :  Banner - Featured Producr * 4
+
+	Gift Sets or Kits : Featured Product * 4 - banner
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+about :
+		
+		images with text 
+
+
+	Welcome to Bloom Beauty, where nature's elegance meets timeless allure.
+	-                         
+	Inspired by the untamed beauty of the natural world, we curate botanical treasures that celebrate the purity of 	life.
+	                *
+	Our philosophy is simple: to harness the power of nature's bounty and infuse it into every product we create.
+                   	                 -
+	Each jar and bottle is a testament to our commitment: pure, potent, and unapologetically beautiful.
+	                                                           -
+	Join us on this journey, as we explore the boundless possibilities of beauty and embrace the essence of Bloom 	Beauty.
+
+
+beauty tips :
+
+	banner category wise tips : 3-5 tips only : video / image if possible
+		
+
+my details : 
+	
+	user details :
+		email
+		password
+		address
+	
+	bank details:
+		bank name
+		branch
+		ifs code
+		account number
+
+	card details: 
+		number
+		cvv
+
+
+/**/
+
+each page will contain footer : 
+	description slogan
+		category  shortcuts
+		profile shortcut
+
+/**/
+
+
+individual page :
+	
+	contain row wise products with description 
+ 
+		description of individual product : 
+			name
+			key features
+			price
+			benifits
+			how to use	
+			ingedients
+			Skin Type/Concerns
+			review
+			purchase button
+
+//
+	name 
+//
+
+
+signin page : 
+	name 
+	email
+	password
+	
+	
+/**/
+
+REMOVED
+when click on purhcase -> redirect to thank for purchasing page : 

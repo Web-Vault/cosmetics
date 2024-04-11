@@ -1,0 +1,246 @@
+* {
+          margin: 0;
+          padding: 0;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 20px;
+          letter-spacing: 2px;
+          font-variant: small-caps;
+          color: goldenrod;
+}
+
+/* 
+
+header part 
+
+
+*/
+
+header,
+main,
+footer {
+          margin: 1px;
+}
+
+.nav {
+          background-color: #fff;
+          display: flex;
+}
+
+.nav-content {
+          flex-basis: 50%;
+          display: flex;
+          justify-content: left;
+          align-items: center;
+}
+
+ul {
+          display: flex;
+}
+
+.nav-links {
+          list-style-type: none;
+          padding: 10px 20px;
+          cursor: pointer;
+          transition: all 0.5S ease-in-out;
+          margin: auto;
+          text-decoration: none;
+          /* color: black; */
+}
+
+.nav-links:hover {
+          background-color: rgba(218, 165, 32, 0.41);
+          border-radius: 0.51rem;
+}
+
+.nav-logo-item {
+          display: flex;
+          /* justify-content: space-between; */
+          justify-content: right;
+          margin-right: 5%;
+}
+
+.nav-logo {
+          width: 15%;
+}
+
+.nav-logout-button {
+          padding: 10px 20px;
+          height: max-content;
+          margin: auto;
+          text-decoration: none;
+          color: black;
+}
+
+/*
+
+main area 
+
+*/
+
+.section {
+          background: linear-gradient(to left, rgb(255, 255, 255), rgba(196, 196, 196, 0.5));
+          padding: 24px 0;
+          border-radius: 1rem;
+}
+
+
+.section-bg-none {
+          padding: 24px 0;
+          border-radius: 1rem;
+}
+
+.bg {
+          background: linear-gradient(to right, rgb(255, 255, 255), rgba(196, 196, 196, 0.5));
+          border-radius: 1rem;
+}
+
+.job-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 15px;
+}
+
+.content {
+          /* display: flex; */
+          flex-basis: 60%;
+          /* margin: 1%; */
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          padding: 10px;
+}
+
+.content-left {
+          flex: 2;
+          padding: 10px;
+}
+
+.content-left>a {
+          text-decoration: none;
+}
+
+.section-title {
+          font-size: 24px;
+          font-weight: bold;
+          margin-bottom: 16px;
+          color: rgb(25, 6, 78) !important;
+          text-decoration: none;
+}
+
+.section-description {
+          font-size: 16px;
+          line-height: 1.6;
+}
+
+.content-right {
+          flex: 1;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          padding: 10px;
+}
+
+.stat {
+          text-align: center;
+          padding: 10px;
+}
+
+.stat-number {
+          font-size: 36px;
+          font-weight: bold;
+}
+
+.stat-number>img {
+          height: 150px;
+          width: 150px;
+          /* box-shadow: 0 20px 10px rgba(196, 196, 196, 0.5); */
+          border-radius: 1rem;
+}
+
+.stat-label {
+          font-size: 18px;
+}
+
+.image {
+          flex: 1;
+          overflow: hidden;
+          border-radius: 8px;
+}
+
+.image-content {
+          object-fit: cover;
+          object-position: center;
+          width: 100%;
+          height: 310px;
+          border-radius: 8px;
+}
+
+/*  
+
+footer
+
+*/
+
+.copy-right {
+          padding: 1%;
+          background-color: #333;
+          /* height: 50px; */
+          text-align: center;
+          border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+
+          .nav {
+                    flex-direction: column-reverse;
+          }
+
+          .nav-content {
+                    display: flex;
+                    flex-direction: column;
+                    flex-basis: 100%;
+                    justify-content: left;
+          }
+
+          .nav-content>ul {
+                    flex-direction: column;
+                    justify-items: left;
+          }
+
+          .nav-links {
+                    padding: 10px 15px;
+          }
+
+          .nav-logo-item {
+                    justify-content: left;
+                    margin-right: 0;
+          }
+
+          .nav-logo {
+                    width: 20%;
+          }
+
+          .nav-logout-button {
+                    padding: 8px 16px;
+          }
+
+          .content,
+          .content-left,
+          .content-right,
+          .image {
+                    flex-basis: 100%;
+          }
+
+          .content-left,
+          .content-right {
+                    padding: 0;
+          }
+
+          .image-content {
+                    height: 200px;
+                    /* Adjust height as needed */
+          }
+}
